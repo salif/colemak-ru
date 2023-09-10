@@ -1,2 +1,11 @@
+plugins:
+  - jekyll-sitemap
+
 name: Russian Colemak
 title: null
+description: Russian Colemak keyboard layout
+repository: salif/colemak-ru
+
+author:
+  name: Salif Mehmed
+  url: https://salif.eu

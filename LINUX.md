@@ -1,21 +1,23 @@
-XCB_VERSION=1
-XCB_NAME="colemak"
-XCB_DESCRIPTION="Russian (Colemak)"
-XCB_EVDEV_FILE="/usr/share/X11/xkb/rules/evdev.xml"
-XCB_LAYOUT_FILE="/usr/share/X11/xkb/symbols/ru"
-XCB_EVDEV="<variant>
-  <configItem>
-    <name>${XCB_NAME}</name>
-    <description>${XCB_DESCRIPTION}</description>
-  </configItem>
-</variant>"
-XCB_LAYOUT="partial alphanumeric_keys
-xkb_symbols \"${XCB_NAME}\" {
+# Install on Linux
 
-  include \"ru(common)\"
-  include \"level3(ralt_switch)\"
+First, backup some files. Run these commands:
 
-  name[Group1]=\"${XCB_DESCRIPTION}\";
+```
+cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
+cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
+```
+
+Open `/usr/share/X11/xkb/symbols/ru` and append the following text block at the end of the file
+
+```
+// github.com/salif/colemak-ru
+partial alphanumeric_keys
+xkb_symbols "colemak_ru" {
+
+  include "ru(common)"
+  include "level3(ralt_switch)"
+
+  name[Group1]="Russian (Colemak)";
 
   key <TLDE> {[ semicolon,         colon,             grave,          asciitilde ]};
   key <AE01> {[ 1,                 exclam      ]};
@@ -69,4 +71,33 @@ xkb_symbols \"${XCB_NAME}\" {
   key <AB09> {[ period,            greater      ]};
   key <AB10> {[ slash,             question     ]};
 
-};"
+};
+```
+
+Open `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the `Russian (typewriter)` variant
+
+```
+<variant>
+  <configItem>
+    <name>colemak_ru</name>
+    <description>Russian (Colemak)</description>
+  </configItem>
+</variant>
+```
+
+Then add `Russian (Colemak)` via the settings of your desktop environment
+
+## Uninstall
+
+To uninstall undo everything you did or restore old files:
+
+```
+mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru
+mv /usr/share/X11/xkb/rules/evdev.xml.old /usr/share/X11/xkb/rules/evdev.xml
+```    
+
+## Update
+
+Uninstall the old version and install the new version. If the installation instructions are updated, old instructions can be found [here](./LINUX_OLD.md).
+
+[Back](./README.md)

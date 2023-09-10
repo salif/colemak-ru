@@ -1,17 +1,38 @@
-## Russian Colemak
+# Russian \(Colemak\) keyboard layout
 
-![preview russian colemak](preview.png)
+![preview russian colemak](./media/preview.png)
 
-## Install on Linux
+## Links
 
-Run:
+* Homepage: [salif.github.io/colemak-ru](https://salif.github.io/colemak-ru/)
+* Source code: [github.com/salif/colemak-ru](https://github.com/salif/colemak-ru)
+* Source code: [codeberg.org/salif/colemak-ru](https://codeberg.org/salif/colemak-ru)
+* Issues \(Github\): [github.com/salif/colemak-ru/issues](https://github.com/salif/colemak-ru/issues)
+* Issues \(Codeberg\): [codeberg.org/salif/colemak-ru/issues](https://codeberg.org/salif/colemak-ru/issues)
+* Element/Matrix chat: [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
 
-```fish
-git clone --depth=1 https://github.com/salif/xkc-installer /tmp/xkc-installer
-git clone --depth=1 https://github.com/salif/colemak-ru /tmp/colemak-ru
-sudo EDITOR="${EDITOR:-nano}" /tmp/xkc-installer/installer.bash /tmp/colemak-ru/linux/xkc.conf
-```
+## Installing
 
-Then add `Russian (Colemak)` via your desktop environment's settings.
+### Install on Linux
 
-If it doesn't work then create an issue on this repository
+See [LINUX.md](./LINUX.md)
+
+## Contributing
+
+### Report a bug
+
+Check [the list of open issues](#links) to see if your bug has already been reported.
+
+If it hasn't, submit a new issue.
+
+### Suggest a feature
+
+[Open an issue](#links) which describes the feature.
+
+### Code
+
+I accept pull requests at Github and Codeberg.
+
+## License
+
+See [LICENSE](./LICENSE).
