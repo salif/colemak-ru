@@ -1,55 +1,31 @@
 # Rusa Colemak-klavaranĝo
 
-<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none"
-style="vertical-align: sub;" viewBox="0 0 24 24" stroke="currentColor"
-stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path
-class="st0" d="M2,16c0.1,0,8-5,9-7c0.6-1.3,1-5,1-5h3H1h7V1" /><line
-class="st0" x1="4" y1="8" x2="12" y2="16" /><polygon class="st0"
-points="15,19 21,19 23,23 18,11 13,23 " /></svg> : [english](README.md), [русский](README.ru.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [bahasa](README.id.md), [türkçe](README.tr.md), [български](README.bg.md)</span>
-
----
+Traduko: [english](README.md), [русский](README.ru.md), [中文](README.zh-CN.md), [español](README.es.md), [العربية](README.ar.md), [português](README.pt.md), [bahasa](README.id.md), [türkçe](README.tr.md), [български](README.bg.md)
 
 ![Antaŭrigardu la rusan Colemak](./media/preview.png)
 
-Jen mia provo fari klavaran aranĝon transliterumitan de Colemak en la rusan.
-
----
+Jen mia provo fari klavaran aranĝon bazitan sur Colemak, adaptitan por la rusa lingvo kaj la cirila alfabeto.
 
 ## Ligiloj
 
-* Hejmpaĝo: [salif.github.io/colemak-ru](https://salif.github.io/colemak-ru/)
-* Fontkodo: [github.com/salif/colemak-ru](https://github.com/salif/colemak-ru)
-* Fontkodo: [codeberg.org/salif/colemak-ru](https://codeberg.org/salif/colemak-ru)
-* Taskoj (Github): [github.com/salif/colemak-ru/issues](https://github.com/salif/colemak-ru/issues)
-* Taskoj (Codeberg): [codeberg.org/salif/colemak-ru/issues](https://codeberg.org/salif/colemak-ru/issues)
-* Diskuti (Github): [github.com/salif/colemak-ru/discussions](https://github.com/salif/colemak-ru/discussions)
-* Babilado (Element/Matrix): [#salif-colemak:mozilla.org](https://matrix.to/#/#salif-colemak:mozilla.org)
+* [Hejmpaĝo](https://salif.github.io/colemak-ru/)
+* [Diskuto (Github)](https://github.com/salif/colemak-ru/discussions)
+* [Babilejo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
+* [Fontkodo (Github)](https://github.com/salif/colemak-ru)
+* [Fontkodo (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Instalado
 
-### Instalu en Linukso
+### Instalado en Linukso
 
-Vidu paĝon [LINUX.eo.md](./LINUX.eo.md)
+Vidu ĉi tiun paĝon: [LINUX.eo.md](./LINUX.eo.md)
 
 ## Kontribuante
 
-### Raportu cimon
+Se vi trovas cimon aŭ havas plibonigon en menso, bonvolu dividi ĝin sur [Github] aŭ [Codeberg], aŭ sendi tiran peton sur Github aŭ Codeberg
 
-Kontrolu la liston de taskoj por vidi ĉu via cimo jam estis raportita.
-
-Se ĝi ne havas, kreu novan taskon (issue).
-
-### Proponu plibonigon
-
-Kreu novan taskon, kiu priskribas la plibonigon.
-
-### Kodo
-
-Mi akceptas tirpetojn ĉe `Github` kaj `Codeberg`.
-
-## Kopiado
-
-Vidu dosieron [LICENSE.txt](./LICENSE.txt).
+[Github]: https://github.com/salif/colemak-ru/issues
+[Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ---
 
