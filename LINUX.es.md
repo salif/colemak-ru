@@ -4,14 +4,20 @@ Traducción: [english](LINUX.md), [русский](LINUX.ru.md), [中文](LINUX.
 
 ---
 
-Primero, haga una copia de seguridad de algunos archivos. Ejecute estos comandos:
+No soy un experto en instalar distribuciones de teclado; es posible que estas instrucciones no funcionen para todos los usuarios de Linux.
+
+## Siga estas instrucciones
+
+**1.** Primero, haga una copia de seguridad de algunos archivos ejecutando estos comandos:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Abrir documento `/usr/share/X11/xkb/symbols/ru` y agregue el siguiente bloque de texto al final del archivo
+Si recibe un error, primero ejecute este comando: `su -l root`, luego intente ejecutar los comandos nuevamente o reemplace `cp` con `sudo cp`.
+
+**2.** Abrir documento `/usr/share/X11/xkb/symbols/ru` y agregue el siguiente bloque de texto al final del archivo:
 
 ```
 // github.com/salif/colemak-ru
@@ -78,7 +84,7 @@ xkb_symbols "colemak_ru" {
 };
 ```
 
-Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloque de texto después de la variante `Russian (typewriter)`.
+**3.** Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloque de texto después de la variante `Russian (typewriter)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Abrir documento `/usr/share/X11/xkb/rules/evdev.xml` e inserte el siguiente bloq
 </variant>
 ```
 
-Luego añade `Russian (Colemak)` a través de la configuración de su entorno de escritorio.
+**4.** Luego añade `Russian (Colemak)` a través de la configuración de su entorno de escritorio.
 
 ## Desinstalando
 
-Para desinstalar, deshaga todo lo que hizo o restaure los archivos antiguos:
+Para desinstalar, restaurar los archivos antiguos o deshacer todo lo que hiciste:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru

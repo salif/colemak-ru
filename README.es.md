@@ -5,11 +5,12 @@ Traducción: [english](README.md), [русский](README.ru.md), [中文](READ
 ![Vista previa del Colemak ruso](./media/preview.png)
 
 Este es mi intento de crear una distribución de teclado basada en Colemak, adaptada al idioma ruso y al alfabeto cirílico.
+Es importante tener en cuenta que no hablo ni escribo en ruso. Originalmente hice esta distribución de teclado para el idioma búlgaro y luego la ajusté para el ruso.
 
 ## Enlaces
 
 * [Página principal](https://salif.github.io/colemak-ru/)
-* [Discusión (Github)](https://github.com/salif/colemak-ru/discussions)
+* [Discusiones (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sala de chat (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
 * [Código fuente (Github)](https://github.com/salif/colemak-ru)
 * [Código fuente (Codeberg)](https://codeberg.org/salif/colemak-ru)
@@ -20,12 +21,22 @@ Este es mi intento de crear una distribución de teclado basada en Colemak, adap
 
 Ver esta página: [LINUX.es.md](./LINUX.es.md)
 
+### Instalación en otros sistemas operativos
+
+No puedo ayudarte, intenta encontrar una manera de instalarlo tú mismo en tu sistema operativo.
+
 ## Contribuyendo
 
-Si encuentra un error o tiene una mejora en mente, no dude en compartirlo en [Github] o [Codeberg], o enviar una solicitud de extracción en Github o Codeberg
+Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Github] o [Codeberg], o enviar una solicitud de extracción en Github o Codeberg.
 
 [Github]: https://github.com/salif/colemak-ru/issues
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
+
+## Otras distribuciones de teclado
+
+* [Para idioma búlgaro](https://salif.github.io/colemak-bg/)
+* [Para idioma turco](https://salif.github.io/colemak-tr/)
+* [Para el idioma esperanto](https://salif.github.io/colemak-eo/)
 
 ---
 

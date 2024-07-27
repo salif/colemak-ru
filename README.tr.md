@@ -5,11 +5,12 @@ Tercüme: [english](README.md), [русский](README.ru.md), [中文](README.
 ![Rus Colemak'ı önizleyin](./media/preview.png)
 
 Bu benim Colemak'ı temel alan, Rus diline ve Kiril alfabesine uyarlanmış bir klavye düzeni yapma girişimim.
+Şunu da belirtmekte fayda var ki ben Rusça konuşamıyorum ve yazmıyorum, bu klavye düzenini ilk başta Bulgarca için yapmıştım, daha sonra Rusçaya göre ayarladım.
 
 ## Bağlantılar
 
 * [Ana sayfa](https://salif.github.io/colemak-ru/)
-* [Tartışma (Github)](https://github.com/salif/colemak-ru/discussions)
+* [Tartışmalar (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sohbet odası (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
 * [Kaynak kodu (Github)](https://github.com/salif/colemak-ru)
 * [Kaynak kodu (Codeberg)](https://codeberg.org/salif/colemak-ru)
@@ -20,12 +21,22 @@ Bu benim Colemak'ı temel alan, Rus diline ve Kiril alfabesine uyarlanmış bir 
 
 Bu sayfaya bakın: [LINUX.tr.md](./LINUX.tr.md)
 
+### Diğer işletim sistemlerine kurulum
+
+Size yardımcı olamam, işletim sisteminize kendiniz yüklemenin bir yolunu bulmaya çalışın.
+
 ## Katkı
 
-Bir hata bulursanız veya aklınızda bir iyileştirme varsa, bunu [Github] veya [Codeberg] üzerinde paylaşmaktan veya Github veya Codeberg üzerinden bir çekme isteği göndermekten çekinmeyin
+Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Github] veya [Codeberg] üzerinde paylaşmaktan veya Github veya Codeberg üzerinden bir çekme isteği göndermekten çekinmeyin.
 
 [Github]: https://github.com/salif/colemak-ru/issues
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
+
+## Diğer klavye düzenleri
+
+* [Bulgar dili için](https://salif.github.io/colemak-bg/)
+* [Türkçe dili için](https://salif.github.io/colemak-tr/)
+* [Esperanto dili için](https://salif.github.io/colemak-eo/)
 
 ---
 

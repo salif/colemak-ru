@@ -4,14 +4,20 @@ Terjemahan: [english](LINUX.md), [русский](LINUX.ru.md), [中文](LINUX.z
 
 ---
 
-Pertama, buat cadangan beberapa file. Jalankan perintah ini:
+Saya bukan ahli dalam memasang tata letak keyboard, petunjuk ini mungkin tidak berfungsi untuk semua pengguna Linux.
+
+## Ikuti petunjuk ini
+
+**1.** Pertama, buat cadangan beberapa file dengan menjalankan perintah ini:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Membuka file `/usr/share/X11/xkb/symbols/ru` dan tambahkan blok teks berikut di akhir file
+Jika Anda mendapatkan kesalahan, jalankan perintah ini terlebih dahulu: `su -l root`, lalu coba jalankan kembali perintahnya, atau ganti `cp` dengan `sudo cp`.
+
+**2.** Membuka file `/usr/share/X11/xkb/symbols/ru` dan tambahkan blok teks berikut di akhir file:
 
 ```
 // github.com/salif/colemak-ru
@@ -78,7 +84,7 @@ xkb_symbols "colemak_ru" {
 };
 ```
 
-Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut setelah varian `Russian (typewriter)`.
+**3.** Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut setelah varian `Russian (typewriter)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Membuka file `/usr/share/X11/xkb/rules/evdev.xml` dan masukkan blok teks berikut
 </variant>
 ```
 
-Lalu tambahkan `Russian (Colemak)` melalui pengaturan lingkungan desktop Anda.
+**4.** Lalu tambahkan `Russian (Colemak)` melalui pengaturan lingkungan desktop Anda.
 
 ## Menghapus instalasi
 
-Untuk menghapus instalasi, batalkan semua yang Anda lakukan atau pulihkan file lama:
+Untuk menghapus instalan, pulihkan file lama atau batalkan semua yang Anda lakukan:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru

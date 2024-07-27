@@ -5,11 +5,12 @@
 ![معاينة كولماك الروسي](./media/preview.png)
 
 هذه هي محاولتي لإنشاء تخطيط لوحة مفاتيح يعتمد على Colemak، وتكييفه مع اللغة الروسية والأبجدية السيريلية.
+من المهم ملاحظة أنني لا أتحدث أو أكتب باللغة الروسية، فقد قمت في الأصل بتصميم تخطيط لوحة المفاتيح هذا للغة البلغارية، ثم قمت بتعديله للغة الروسية.
 
 ## روابط
 
 * [الصفحة الرئيسية](https://salif.github.io/colemak-ru/)
-* [مناقشة (Github)](https://github.com/salif/colemak-ru/discussions)
+* [مناقشات (Github)](https://github.com/salif/colemak-ru/discussions)
 * [غرفة الدردشة (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
 * [مصدر الرمز (Github)](https://github.com/salif/colemak-ru)
 * [مصدر الرمز (Codeberg)](https://codeberg.org/salif/colemak-ru)
@@ -20,12 +21,22 @@
 
 انظر هذه الصفحة: [LINUX.ar.md](./LINUX.ar.md)
 
+### التثبيت على أنظمة التشغيل الأخرى
+
+لا أستطيع مساعدتك، حاول العثور على طريقة للتثبيت على نظام التشغيل لديك بنفسك.
+
 ## المساهمة
 
-إذا وجدت خطأً أو كان لديك تحسين في ذهنك، فلا تتردد في مشاركته على [Github] أو [Codeberg]، أو إرسال طلب سحب على Github أو Codeberg.
+إذا وجدت خطأ ما أو أردت اقتراح تحسين، فلا تتردد في مشاركته على [Github] أو [Codeberg]، أو إرسال طلب سحب على Github أو Codeberg.
 
 [Github]: https://github.com/salif/colemak-ru/issues
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
+
+## تخطيطات لوحة المفاتيح الأخرى
+
+* [للغة البلغارية](https://salif.github.io/colemak-bg/)
+* [للغة التركية](https://salif.github.io/colemak-tr/)
+* [للغة الاسبرانتو](https://salif.github.io/colemak-eo/)
 
 ---
 

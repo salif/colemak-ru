@@ -5,6 +5,7 @@ Terjemahan: [english](README.md), [русский](README.ru.md), [中文](READM
 ![Pratinjau Colemak Rusia](./media/preview.png)
 
 Ini adalah upaya saya untuk membuat tata letak keyboard berdasarkan Colemak, diadaptasi untuk bahasa Rusia dan alfabet Sirilik.
+Penting untuk dicatat bahwa saya tidak berbicara atau menulis dalam bahasa Rusia, awalnya saya membuat tata letak keyboard ini untuk bahasa Bulgaria, kemudian saya menyesuaikannya untuk bahasa Rusia.
 
 ## Tautan
 
@@ -20,12 +21,22 @@ Ini adalah upaya saya untuk membuat tata letak keyboard berdasarkan Colemak, dia
 
 Lihat halaman ini : [LINUX.id.md](./LINUX.id.md)
 
+### Menginstal di sistem operasi lain
+
+Saya tidak dapat membantu Anda, coba cari sendiri cara untuk menginstalnya di OS Anda.
+
 ## Berkontribusi
 
-Jika Anda menemukan bug atau ingin melakukan perbaikan, silakan membagikannya di [Github] atau [Codeberg], atau kirimkan permintaan penarikan di Github atau Codeberg.
+Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya di [Github] atau [Codeberg], atau kirimkan permintaan penarikan di Github atau Codeberg.
 
 [Github]: https://github.com/salif/colemak-ru/issues
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
+
+## Tata letak keyboard lainnya
+
+* [Untuk bahasa Bulgaria](https://salif.github.io/colemak-bg/)
+* [Untuk bahasa Turki](https://salif.github.io/colemak-tr/)
+* [Untuk bahasa Esperanto](https://salif.github.io/colemak-eo/)
 
 ---
 

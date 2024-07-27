@@ -5,27 +5,38 @@
 ![Преглед на руския Colemak](./media/preview.png)
 
 Това е моят опит да направя клавиатурна подредба на базата на Colemak, адаптирана за руския език и кирилицата.
+Важно е да отбележа, че аз не говоря и не пиша на руски, първоначално направих тази клавиатурна подредба за български език, след което я коригирах за руски.
 
 ## Връзки
 
 * [Начална страница](https://salif.github.io/colemak-ru/)
-* [Дискусия (Github)](https://github.com/salif/colemak-ru/discussions)
+* [Дискусии (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Чат стая (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
 * [Програмен код (Github)](https://github.com/salif/colemak-ru)
 * [Програмен код (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Инсталиране
 
-### Инсталиране на Linux
+### Инсталиране в Linux
 
 Вижте тази страница: [LINUX.bg.md](./LINUX.bg.md)
 
-## Принос
+### Инсталиране в други операционни системи
 
-Ако откриете грешка или имате предвид подобрение, не се колебайте да го споделите в [Github] или [Codeberg] или изпратете заявка за изтегляне в Github или Codeberg.
+Не мога да ви помогна, опитайте сами да намерите начин да инсталирате на вашата ОС.
+
+## Допринасяне
+
+Ако откриете грешка или искате да предложите подобрение, не се колебайте да го споделите в [Github] или [Codeberg] или изпратете заявка за изтегляне в Github или Codeberg.
 
 [Github]: https://github.com/salif/colemak-ru/issues
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
+
+## Други клавиатурни подредби
+
+* [За български език](https://salif.github.io/colemak-bg/)
+* [За турски език](https://salif.github.io/colemak-tr/)
+* [За езика есперанто](https://salif.github.io/colemak-eo/)
 
 ---
 

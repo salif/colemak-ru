@@ -4,14 +4,20 @@ Tercüme: [english](LINUX.md), [русский](LINUX.ru.md), [中文](LINUX.zh-
 
 ---
 
-Öncelikle bazı dosyaları yedekleyin. Bu komutları çalıştırın:
+Klavye düzenlerini kurma konusunda uzman değilim; bu talimatlar tüm Linux kullanıcıları için işe yaramayabilir.
+
+## Bu talimatları izleyin
+
+**1.** Öncelikle bu komutları çalıştırarak bazı dosyaları yedekleyin:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Açık dosya `/usr/share/X11/xkb/symbols/ru` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin
+Bir hata alırsanız, önce şu komutu çalıştırın: `su -l root`, daha sonra komutları tekrar çalıştırmayı deneyin veya 'cp'yi 'sudo cp' ile değiştirin.
+
+**2.** Açık dosya `/usr/share/X11/xkb/symbols/ru` ve aşağıdaki metin bloğunu dosyanın sonuna ekleyin:
 
 ```
 // github.com/salif/colemak-ru
@@ -78,7 +84,7 @@ xkb_symbols "colemak_ru" {
 };
 ```
 
-Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Russian (typewriter)`.
+**3.** Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağıdaki metin bloğunu ekleyin `Russian (typewriter)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Açık dosya `/usr/share/X11/xkb/rules/evdev.xml` ve değişkenden sonra aşağ�
 </variant>
 ```
 
-Sonra Ekle `Russian (Colemak)` masaüstü ortamınızın ayarları aracılığıyla.
+**4.** Sonra Ekle `Russian (Colemak)` masaüstü ortamınızın ayarları aracılığıyla.
 
 ## Kaldırma
 
-Kaldırmak için yaptığınız her şeyi geri alın veya eski dosyaları geri yükleyin:
+Kaldırmak için eski dosyaları geri yükleyin veya yaptığınız her şeyi geri alın:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru

@@ -4,14 +4,20 @@ Translation: [русский](LINUX.ru.md), [中文](LINUX.zh-CN.md), [español]
 
 ---
 
-First, backup some files. Run these commands:
+I am not an expert in installing keyboard layouts, these instructions may not work for all Linux users.
+
+## Follow these instructions
+
+**1.** First, backup some files by running these commands:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Open file `/usr/share/X11/xkb/symbols/ru` and append the following text block at the end of the file
+If you get an error, first run this command: `su -l root`, then try running the commands again, or replace `cp` with `sudo cp`.
+
+**2.** Open file `/usr/share/X11/xkb/symbols/ru` and append the following text block at the end of the file:
 
 ```
 // github.com/salif/colemak-ru
@@ -78,7 +84,7 @@ xkb_symbols "colemak_ru" {
 };
 ```
 
-Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Russian (typewriter)`.
+**3.** Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text block after the variant `Russian (typewriter)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Open file `/usr/share/X11/xkb/rules/evdev.xml` and insert the following text blo
 </variant>
 ```
 
-Then add `Russian (Colemak)` via the settings of your desktop environment.
+**4.** Then add `Russian (Colemak)` via the settings of your desktop environment.
 
 ## Uninstalling
 
-To uninstall undo everything you did or restore the old files:
+To uninstall restore the old files or undo everything you did:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru

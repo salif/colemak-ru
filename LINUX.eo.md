@@ -4,14 +4,20 @@ Traduko: [english](LINUX.md), [русский](LINUX.ru.md), [中文](LINUX.zh-C
 
 ---
 
-Unue, sekurigu iujn dosierojn. Rulu ĉi tiujn komandojn:
+Mi ne estas sperta pri instalado de klavaraj aranĝoj, ĉi tiuj instrukcioj eble ne funkcias por ĉiuj uzantoj de Linukso.
+
+## Sekvu ĉi tiujn instrukciojn
+
+**1.** Unue, sekurigu iujn dosierojn rulante ĉi tiujn komandojn:
 
 ```bash
 cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.old
 cp /usr/share/X11/xkb/rules/evdev.xml /usr/share/X11/xkb/rules/evdev.xml.old
 ```
 
-Malfermu dosieron `/usr/share/X11/xkb/symbols/ru` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero
+Se vi ricevas eraron, unue rulu ĉi tiun komandon: `su -l root`, tiam provu ruli la komandojn denove, aŭ anstataŭigu `cp` per `sudo cp`.
+
+**2.** Malfermu dosieron `/usr/share/X11/xkb/symbols/ru` kaj aldonu la sekvan tekstoblokon ĉe la fino de la dosiero:
 
 ```
 // github.com/salif/colemak-ru
@@ -78,7 +84,7 @@ xkb_symbols "colemak_ru" {
 };
 ```
 
-Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Russian (typewriter)`.
+**3.** Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekstoblokon post la varianto `Russian (typewriter)`:
 
 ```xml
 <variant>
@@ -89,11 +95,11 @@ Malfermu dosieron `/usr/share/X11/xkb/rules/evdev.xml` kaj enigu la sekvan tekst
 </variant>
 ```
 
-Poste aldonu `Russian (Colemak)` per la agordoj de via labortabla medio.
+**4.** Poste aldonu `Russian (Colemak)` per la agordoj de via labortabla medio.
 
 ## Malinstalado
 
-Por malinstali malfaru ĉion, kion vi faris aŭ restarigi la malnovajn dosierojn:
+Por malinstali restarigi la malnovajn dosierojn aŭ malfari ĉion, kion vi faris:
 
 ```bash
 mv /usr/share/X11/xkb/symbols/ru.old /usr/share/X11/xkb/symbols/ru
