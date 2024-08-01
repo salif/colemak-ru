@@ -7,7 +7,6 @@ exclude:
   - "*.all.json"
 
 title: Russian Colemak
-description: Russian Colemak keyboard layout
 repository: salif/colemak-ru
 
 author:

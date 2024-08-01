@@ -10,10 +10,9 @@ Bu benim Colemak'ı temel alan, Rus diline ve Kiril alfabesine uyarlanmış bir 
 ## Bağlantılar
 
 * [Ana sayfa](https://salif.github.io/colemak-ru/)
+* [Kaynak kodu](https://codeberg.org/salif/colemak-ru)
 * [Tartışmalar (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sohbet odası (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Kaynak kodu (Github)](https://github.com/salif/colemak-ru)
-* [Kaynak kodu (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Kurulum
 
@@ -27,9 +26,9 @@ Size yardımcı olamam, işletim sisteminize kendiniz yüklemenin bir yolunu bul
 
 ## Katkı
 
-Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Github] veya [Codeberg] üzerinde paylaşmaktan veya Github veya Codeberg üzerinden bir çekme isteği göndermekten çekinmeyin.
+Bir hata bulursanız veya bir iyileştirme önermek isterseniz, bunu [Codeberg] veya [Github] üzerinde paylaşmaktan veya bir çekme isteği göndermekten çekinmeyin.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Diğer klavye düzenleri

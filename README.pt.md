@@ -10,10 +10,9 @@ Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adapta
 ## Links
 
 * [Pagina inicial](https://salif.github.io/colemak-ru/)
+* [Código fonte](https://codeberg.org/salif/colemak-ru)
 * [Discussões (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sala de bate-papo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Código fonte (Github)](https://github.com/salif/colemak-ru)
-* [Código fonte (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Instalando
 
@@ -27,9 +26,9 @@ Não posso te ajudar, tente encontrar você mesmo uma maneira de instalar no seu
 
 ## Contribuindo
 
-Se você encontrar um bug ou quiser sugerir uma melhoria, sinta-se à vontade para compartilhá-lo no [Github] ou [Codeberg] ou enviar uma solicitação pull no Github ou Codeberg.
+Se você encontrar um bug ou quiser sugerir uma melhoria, sinta-se à vontade para compartilhá-lo no [Codeberg] ou [Github] ou enviar uma solicitação pull.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Outros layouts de teclado

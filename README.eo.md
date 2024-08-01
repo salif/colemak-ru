@@ -10,10 +10,9 @@ Gravas noti, ke mi ne parolas aŭ skribas en la rusa, mi origine faris ĉi tiun 
 ## Ligiloj
 
 * [Hejmpaĝo](https://salif.github.io/colemak-ru/)
+* [Fontkodo](https://codeberg.org/salif/colemak-ru)
 * [Diskutoj (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Babilejo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Fontkodo (Github)](https://github.com/salif/colemak-ru)
-* [Fontkodo (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Instalado
 
@@ -27,9 +26,9 @@ Mi ne povas helpi vin, provu mem trovi manieron instali en via OS.
 
 ## Kontribuante
 
-Se vi trovas cimon aŭ volas sugesti plibonigon, bonvolu dividi ĝin ĉe [Github] aŭ [Codeberg], aŭ sendi tiran peton ĉe Github aŭ Codeberg.
+Se vi trovas cimon aŭ volas sugesti plibonigon, bonvolu dividi ĝin ĉe [Codeberg] aŭ [Github], aŭ sendi tiri peton.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Aliaj klavaraj aranĝoj

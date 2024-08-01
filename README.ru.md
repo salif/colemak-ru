@@ -10,10 +10,9 @@
 ## Ссылки
 
 * [Домашняя страница](https://salif.github.io/colemak-ru/)
+* [Исходный код](https://codeberg.org/salif/colemak-ru)
 * [Обсуждения (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Чат (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Исходный код (Github)](https://github.com/salif/colemak-ru)
-* [Исходный код (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Установка
 
@@ -27,9 +26,9 @@
 
 ## Содействие
 
-Если вы обнаружили ошибку или хотите предложить улучшение, поделитесь ею на [Github] или [Codeberg] или отправьте запрос на включение на Github или Codeberg.
+Если вы обнаружили ошибку или хотите предложить улучшение, поделитесь ею на [Codeberg] или [Github] или отправьте запрос на включение.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Другие раскладки клавиатуры

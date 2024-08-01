@@ -10,10 +10,9 @@
 ## „:Links“
 
 * [„:Homepage“](https://salif.github.io/colemak-ru/)
+* [„:Source code“](https://codeberg.org/salif/colemak-ru)
 * [„:Discussions“ (Github)](https://github.com/salif/colemak-ru/discussions)
 * [„:Chat room“ (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [„:Source code“ (Github)](https://github.com/salif/colemak-ru)
-* [„:Source code“ (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## „:Installing“
 
@@ -27,9 +26,9 @@
 
 ## „:Contributing“
 
-„:If you find a bug or want to suggest an improvement, feel free to share it on [Github] or [Codeberg], or submit a pull request on Github or Codeberg“.
+„:If you find a bug or want to suggest an improvement, feel free to share it on [Codeberg] or [Github], or submit a pull request“.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## „:Other keyboard layouts“

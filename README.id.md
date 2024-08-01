@@ -10,10 +10,9 @@ Penting untuk dicatat bahwa saya tidak berbicara atau menulis dalam bahasa Rusia
 ## Tautan
 
 * [Beranda](https://salif.github.io/colemak-ru/)
+* [Kode sumber](https://codeberg.org/salif/colemak-ru)
 * [Diskusi (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Ruang obrolan (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Kode sumber (Github)](https://github.com/salif/colemak-ru)
-* [Kode sumber (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Menginstal
 
@@ -27,9 +26,9 @@ Saya tidak dapat membantu Anda, coba cari sendiri cara untuk menginstalnya di OS
 
 ## Berkontribusi
 
-Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya di [Github] atau [Codeberg], atau kirimkan permintaan penarikan di Github atau Codeberg.
+Jika Anda menemukan bug atau ingin menyarankan perbaikan, silakan membagikannya di [Codeberg] atau [Github], atau kirimkan permintaan penarikan.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Tata letak keyboard lainnya

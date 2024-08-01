@@ -10,10 +10,9 @@ Es importante tener en cuenta que no hablo ni escribo en ruso. Originalmente hic
 ## Enlaces
 
 * [Página principal](https://salif.github.io/colemak-ru/)
+* [Código fuente](https://codeberg.org/salif/colemak-ru)
 * [Discusiones (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sala de chat (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [Código fuente (Github)](https://github.com/salif/colemak-ru)
-* [Código fuente (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## Instalando
 
@@ -27,9 +26,9 @@ No puedo ayudarte, intenta encontrar una manera de instalarlo tú mismo en tu si
 
 ## Contribuyendo
 
-Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Github] o [Codeberg], o enviar una solicitud de extracción en Github o Codeberg.
+Si encuentra un error o desea sugerir una mejora, no dude en compartirlo en [Codeberg] o [Github], o enviar una solicitud de extracción.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## Otras distribuciones de teclado

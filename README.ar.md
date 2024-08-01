@@ -10,10 +10,9 @@
 ## روابط
 
 * [الصفحة الرئيسية](https://salif.github.io/colemak-ru/)
+* [مصدر الرمز](https://codeberg.org/salif/colemak-ru)
 * [مناقشات (Github)](https://github.com/salif/colemak-ru/discussions)
 * [غرفة الدردشة (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [مصدر الرمز (Github)](https://github.com/salif/colemak-ru)
-* [مصدر الرمز (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## التثبيت
 
@@ -27,9 +26,9 @@
 
 ## المساهمة
 
-إذا وجدت خطأ ما أو أردت اقتراح تحسين، فلا تتردد في مشاركته على [Github] أو [Codeberg]، أو إرسال طلب سحب على Github أو Codeberg.
+إذا وجدت خطأ ما أو أردت اقتراح تحسين، فلا تتردد في مشاركته على [Codeberg] أو [Github]، أو إرسال طلب سحب.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## تخطيطات لوحة المفاتيح الأخرى

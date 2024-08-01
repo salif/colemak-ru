@@ -10,10 +10,9 @@
 ## 链接
 
 * [主页](https://salif.github.io/colemak-ru/)
+* [源代码](https://codeberg.org/salif/colemak-ru)
 * [讨论 (Github)](https://github.com/salif/colemak-ru/discussions)
 * [聊天室 (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
-* [源代码 (Github)](https://github.com/salif/colemak-ru)
-* [源代码 (Codeberg)](https://codeberg.org/salif/colemak-ru)
 
 ## 安装
 
@@ -27,9 +26,9 @@
 
 ## 贡献
 
-如果您发现错误或想要提出改进建议，请随时在 [Github] 或 [Codeberg] 上分享，或在 Github 或 Codeberg 上提交拉取请求.
+如果您发现错误或想要提出改进建议，请随时在 [Codeberg] 或 [Github] 上分享，或提交拉取请求.
 
-[Github]: https://github.com/salif/colemak-ru/issues
+[Github]: https://github.com/salif/colemak-ru/discussions
 [Codeberg]: https://codeberg.org/salif/colemak-ru/issues
 
 ## 其他键盘布局
