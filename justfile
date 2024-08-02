@@ -1,11 +1,11 @@
-#!/usr/bin/justfile -f
+#!/usr/bin/just -f
+
+mod? bg '../colemak-bg/justfile'
 
 _:
 	@just --list
 
-translate:
-	node ../colemak-bg/translate.js up README
-	node ../colemak-bg/translate.js up LINUX
-
-serve:
-	bundle exec jekyll serve
+config_yml:
+	../colemak-bg/justfile \
+		key_readme="This is my attempt to make a keyboard layout based on Colemak, adapted for the Russian language and the Cyrillic alphabet" \
+		key_image="./media/preview.png" key_linux="Follow these instructions" config_yml

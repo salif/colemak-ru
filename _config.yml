@@ -3,50 +3,129 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "justfile"
   - "*.all.md"
   - "*.all.json"
 
-title: Russian Colemak
-repository: salif/colemak-ru
+title: "Russian Colemak"
+lang: "en"
+baseurl: "/colemak-ru"
+repository: "salif/colemak-ru"
 
 author:
-  name: Salif Mehmed
-  url: https://salif.eu
+  name: "Salif Mehmed"
+  url: "https://salif.eu"
 
 defaults:
   - scope:
-      path: "*.bg.md"
-    values:
-      lang: "bg"
-  - scope:
-      path: "*.eo.md"
-    values:
-      lang: "eo"
-  - scope:
-      path: "*.tr.md"
-    values:
-      lang: "tr"
-  - scope:
-      path: "*.zh-CN.md"
-    values:
-      lang: "zh-CN"
-  - scope:
-      path: "*.es.md"
-    values:
-      lang: "es"
-  - scope:
-      path: "*.ar.md"
-    values:
-      lang: "ar"
-  - scope:
-      path: "*.pt.md"
-    values:
-      lang: "pt"
-  - scope:
-      path: "*.ru.md"
+      path: "README.ru.md"
     values:
       lang: "ru"
+      description: "Это моя попытка сделать раскладку клавиатуры на базе Колемака, адаптированную под русский язык и кириллицу"
+      image: "./media/preview.png"
   - scope:
-      path: "*.id.md"
+      path: "README.zh-CN.md"
+    values:
+      lang: "zh-CN"
+      description: "这是我尝试制作基于 Colemak 的键盘布局，适用于俄语和西里尔字母"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.es.md"
+    values:
+      lang: "es"
+      description: "Este es mi intento de crear una distribución de teclado basada en Colemak, adaptada al idioma ruso y al alfabeto cirílico"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.ar.md"
+    values:
+      lang: "ar"
+      description: "هذه هي محاولتي لإنشاء تخطيط لوحة مفاتيح يعتمد على Colemak، وتكييفه مع اللغة الروسية والأبجدية السيريلية"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.pt.md"
+    values:
+      lang: "pt"
+      description: "Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adaptado para o idioma russo e o alfabeto cirílico"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.id.md"
     values:
       lang: "id"
+      description: "Ini adalah upaya saya untuk membuat tata letak keyboard berdasarkan Colemak, diadaptasi untuk bahasa Rusia dan alfabet Sirilik"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.tr.md"
+    values:
+      lang: "tr"
+      description: "Bu benim Colemak'ı temel alan, Rus diline ve Kiril alfabesine uyarlanmış bir klavye düzeni yapma girişimim"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.bg.md"
+    values:
+      lang: "bg"
+      description: "Това е моят опит да направя клавиатурна подредба на базата на Colemak, адаптирана за руския език и кирилицата"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.eo.md"
+    values:
+      lang: "eo"
+      description: "Jen mia provo fari klavaran aranĝon bazitan sur Colemak, adaptitan por la rusa lingvo kaj la cirila alfabeto"
+      image: "./media/preview.png"
+  - scope:
+      path: "README.md"
+    values:
+      lang: "en"
+      description: "This is my attempt to make a keyboard layout based on Colemak, adapted for the Russian language and the Cyrillic alphabet"
+      image: "./media/preview.png"
+  - scope:
+      path: "LINUX.ru.md"
+    values:
+      lang: "ru"
+      description: "Следуйте этим инструкциям"
+  - scope:
+      path: "LINUX.zh-CN.md"
+    values:
+      lang: "zh-CN"
+      description: "请遵循这些说明"
+  - scope:
+      path: "LINUX.es.md"
+    values:
+      lang: "es"
+      description: "Siga estas instrucciones"
+  - scope:
+      path: "LINUX.ar.md"
+    values:
+      lang: "ar"
+      description: "اتبع هذه التعليمات"
+  - scope:
+      path: "LINUX.pt.md"
+    values:
+      lang: "pt"
+      description: "Siga estas instruções"
+  - scope:
+      path: "LINUX.id.md"
+    values:
+      lang: "id"
+      description: "Ikuti petunjuk ini"
+  - scope:
+      path: "LINUX.tr.md"
+    values:
+      lang: "tr"
+      description: "Bu talimatları izleyin"
+  - scope:
+      path: "LINUX.bg.md"
+    values:
+      lang: "bg"
+      description: "Следвайте тези инструкции"
+  - scope:
+      path: "LINUX.eo.md"
+    values:
+      lang: "eo"
+      description: "Sekvu ĉi tiujn instrukciojn"
+  - scope:
+      path: "LINUX.md"
+    values:
+      lang: "en"
+      description: "Follow these instructions"
