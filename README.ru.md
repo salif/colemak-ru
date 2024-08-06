@@ -7,9 +7,10 @@
 Это моя попытка сделать раскладку клавиатуры на базе Колемака, адаптированную под русский язык и кириллицу.
 Важно отметить, что я не говорю и не пишу по-русски, эту раскладку клавиатуры я изначально делал для болгарского языка, потом адаптировал под русский.
 
+> В архиве, см (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## Ссылки
 
-* [Домашняя страница](https://salif.github.io/colemak-ru/)
 * [Исходный код](https://codeberg.org/salif/colemak-ru)
 * [Обсуждения (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Чат (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

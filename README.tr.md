@@ -7,9 +7,10 @@ Tercüme: [english](README.md), [русский](README.ru.md), [中文](README.
 Bu benim Colemak'ı temel alan, Rus diline ve Kiril alfabesine uyarlanmış bir klavye düzeni yapma girişimim.
 Şunu da belirtmekte fayda var ki ben Rusça konuşamıyorum ve yazmıyorum, bu klavye düzenini ilk başta Bulgarca için yapmıştım, daha sonra Rusçaya göre ayarladım.
 
+> Arşivlendi, bkz (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## Bağlantılar
 
-* [Ana sayfa](https://salif.github.io/colemak-ru/)
 * [Kaynak kodu](https://codeberg.org/salif/colemak-ru)
 * [Tartışmalar (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sohbet odası (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

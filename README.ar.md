@@ -7,9 +7,10 @@
 هذه هي محاولتي لإنشاء تخطيط لوحة مفاتيح يعتمد على Colemak، وتكييفه مع اللغة الروسية والأبجدية السيريلية.
 من المهم ملاحظة أنني لا أتحدث أو أكتب باللغة الروسية، فقد قمت في الأصل بتصميم تخطيط لوحة المفاتيح هذا للغة البلغارية، ثم قمت بتعديله للغة الروسية.
 
+> مؤرشفة، انظر (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## روابط
 
-* [الصفحة الرئيسية](https://salif.github.io/colemak-ru/)
 * [مصدر الرمز](https://codeberg.org/salif/colemak-ru)
 * [مناقشات (Github)](https://github.com/salif/colemak-ru/discussions)
 * [غرفة الدردشة (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

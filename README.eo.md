@@ -7,9 +7,10 @@ Traduko: [english](README.md), [русский](README.ru.md), [中文](README.z
 Jen mia provo fari klavaran aranĝon bazitan sur Colemak, adaptitan por la rusa lingvo kaj la cirila alfabeto.
 Gravas noti, ke mi ne parolas aŭ skribas en la rusa, mi origine faris ĉi tiun klavaran aranĝon por la bulgara lingvo, poste mi alĝustigis ĝin por la rusa.
 
+> Archived, vidu (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## Ligiloj
 
-* [Hejmpaĝo](https://salif.github.io/colemak-ru/)
 * [Fontkodo](https://codeberg.org/salif/colemak-ru)
 * [Diskutoj (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Babilejo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

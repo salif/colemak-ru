@@ -7,9 +7,10 @@ Terjemahan: [english](README.md), [русский](README.ru.md), [中文](READM
 Ini adalah upaya saya untuk membuat tata letak keyboard berdasarkan Colemak, diadaptasi untuk bahasa Rusia dan alfabet Sirilik.
 Penting untuk dicatat bahwa saya tidak berbicara atau menulis dalam bahasa Rusia, awalnya saya membuat tata letak keyboard ini untuk bahasa Bulgaria, kemudian saya menyesuaikannya untuk bahasa Rusia.
 
+> Diarsipkan, lihat (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## Tautan
 
-* [Beranda](https://salif.github.io/colemak-ru/)
 * [Kode sumber](https://codeberg.org/salif/colemak-ru)
 * [Diskusi (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Ruang obrolan (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

@@ -7,9 +7,10 @@
 这是我尝试制作基于 Colemak 的键盘布局，适用于俄语和西里尔字母.
 需要注意的是，我不会用俄语说或写，我最初为保加利亚语制作了这个键盘布局，然后我将其调整为俄语.
 
+> 已存档，请参阅 (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## 链接
 
-* [主页](https://salif.github.io/colemak-ru/)
 * [源代码](https://codeberg.org/salif/colemak-ru)
 * [讨论 (Github)](https://github.com/salif/colemak-ru/discussions)
 * [聊天室 (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)

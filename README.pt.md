@@ -7,9 +7,10 @@ Tradução: [english](README.md), [русский](README.ru.md), [中文](READM
 Esta é minha tentativa de fazer um layout de teclado baseado no Colemak, adaptado para o idioma russo e o alfabeto cirílico.
 É importante ressaltar que não falo nem escrevo em russo, originalmente fiz esse layout de teclado para o idioma búlgaro, depois ajustei para russo.
 
+> Arquivado, veja (https://github.com/salif/colemak-ru/discussions/1#discussioncomment-10247941).
+
 ## Links
 
-* [Pagina inicial](https://salif.github.io/colemak-ru/)
 * [Código fonte](https://codeberg.org/salif/colemak-ru)
 * [Discussões (Github)](https://github.com/salif/colemak-ru/discussions)
 * [Sala de bate-papo (Element/Matrix)](https://matrix.to/#/#salif-colemak:mozilla.org)
